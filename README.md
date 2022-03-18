@@ -1,2 +1,2 @@
-# wp-load-posts-ajax
-How to Load WordPress Posts With Ajax
+# 外部サイトからWordPressの記事をAjax経由で読み込むJavascript
+
