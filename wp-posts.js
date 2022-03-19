@@ -28,7 +28,7 @@ const addRaw = (elm) => {
             max-width: ${wp_width}px;
         `;
 
-  const url = `${wp_url}/wp-json/wp/v2/posts?categories=${wp_categories}&filter[orderby]=date&order=desc`;
+  const url = `${wp_url}/wp-json/wp/v2/posts?categories=${wp_categories}&filter[orderby]=date&order=desc&per_page=${wp_limit}`;
   const imageLinksAsync = async() => {
     const fetchLinksUrl = await fetch(url);
     const linksUrlData = await fetchLinksUrl.json();
