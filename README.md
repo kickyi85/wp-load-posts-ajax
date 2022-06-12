@@ -17,3 +17,22 @@ https://www.fukuda-gikou.co.jp/performance/app/100/
 |data-category|int（comma split）|1,5|
 |data-limit|int|5|
 |data-fontsize|int|14|
+
+## sample
+
+```html
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta name="robots" content="noindex">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>wp-load-posts-ajax</title>
+</head>
+<body>
+	<table class="wp_posts" data-url="https://www.fukuda-gikou.co.jp" data-category="10,15,1" data-limit="5" data-width="500" data-fontsize="14">
+	<script src="wp-posts.js"></script>
+</body>
+</html>
+ ```
